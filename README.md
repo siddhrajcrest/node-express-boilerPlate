@@ -2,14 +2,17 @@
 
 Server code using Node.js
 
-To run on local: - npm run start
+# Steps
 
-Authentication endpoints: -
+- Clone the repo and run npm install 
+- npm run start
+
+#Authentication endpoints: -
 
 1. /users/register (method: post, register new admin)
 2. /users/login (method: post, login authentication for admin)
 
-Product Endpoints: -
+#Product Endpoints: -
 
 1. /products (method: get,get all products from system)
 2. /products/new (method:post, add new product to system)
@@ -17,7 +20,7 @@ Product Endpoints: -
 4. /products/:id (method: put, update product with id)
 5. /products/:id (method:delete, delete product with id)
 
-Category endpoints: -
+#Category endpoints: -
 
 1. /categories (method: get, get all categories)
 2. /categories/new (method: post, add new category)
