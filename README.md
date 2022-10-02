@@ -2,7 +2,11 @@
 
 Server code using Node.js
 
-To run on local: - npm run start
+# Steps to setup the application
+- Clone this Repo
+- set mongodb credentials into the env or the script in package.json
+- install the package dependencies using npm i 
+- run npm run start
 
 Authentication endpoints: -
 
